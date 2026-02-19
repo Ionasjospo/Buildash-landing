@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Paleta Buildash (placeholder: después pegás la real del sistema) */
+:root{
+  --bg: #0b1020;
+  --surface: #101a33;
+  --text: #eaf0ff;
+  --muted: #a9b4d0;
+
+  --primary: #2f6bff;
+  --primary2:#2ad4ff;
+  --accent: #ff8a00;
+  --border: rgba(255,255,255,.10);
+}
+
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--text); }
