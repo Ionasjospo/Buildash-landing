@@ -182,8 +182,8 @@ export default function App() {
 
         <div className="mt-10 grid gap-4 md:grid-cols-3">
           {[
-            { name: "Starter", price: "USD 29", who: "1 obra activa", perk: "Dashboard + parte diario" },
-            { name: "Pro", price: "USD 79", who: "hasta 5 obras", perk: "Reportes + roles + alertas" },
+            { name: "Starter", price: "USD", who: "1 obra activa", perk: "Dashboard + parte diario" },
+            { name: "Pro", price: "USD", who: "hasta 5 obras", perk: "Reportes + roles + alertas" },
             { name: "Business", price: "Hablemos", who: "multi-obra", perk: "Soporte + onboarding" },
           ].map((p) => (
             <Card key={p.name}>
